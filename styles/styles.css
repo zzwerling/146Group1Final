@@ -8,6 +8,7 @@ background-color: darkred;
 .topnav{
     background-color: #404040;
     overflow: hidden;
+    box-shadow: 5px 5px 25px #666666;
 }
  
 .topnav a{
@@ -52,7 +53,7 @@ background-color: darkred;
 .navlink{
     font-family: 'Alerta Stencil', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -69,6 +70,8 @@ background-color: darkred;
     cursor: pointer;
     padding: 10px 24px;
     text-align:center;
+    border-radius:16px;
+    box-shadow: 5px 5px 25px #666666;
 
 }
 
@@ -105,6 +108,7 @@ background-color: darkred;
     margin-top: 5%;
     height: 55%;
     width: 55%;
+    box-shadow: 3px 3px 25px #666666;
 
 }
 
@@ -125,34 +129,35 @@ background-color: darkred;
 
 }
 
-
 .dropbutton {
     background-color: #595959;
     border: solid;
     color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 30px;
-    margin: 4px 2px;
     cursor: pointer;
-    padding: 10px 24px;
     text-align:center;
+    align-items: center;
 }
 
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline;
 }
 
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
+    min-width: 280px;
+    right: auto;
+    left: auto;
+    z-index: -1px;
+
 }
 
 
@@ -168,7 +173,7 @@ background-color: darkred;
 .dropdown-content a:hover {background-color: silver}
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
 }
 
 
@@ -213,6 +218,7 @@ input[type=text] {
 .schedule{
     display: block;
     padding-left: 30px;
+    color: white;
 }
 
 .sched{
@@ -220,6 +226,8 @@ input[type=text] {
     font-family: 'Alerta Stencil', sans-serif;
     font-size: 20px;
 }
+
+
 
 
 
