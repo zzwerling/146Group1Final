@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Math</title>
+	<link rel="stylesheet" type="text/css" href="styles/duckhelp.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="suzy.css">
+	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+	<script type="text/javascript" src="js/duckhelp.js"></script>
+</head>
+
+<body>
+<img class="atilla" src="images/atilla.png">
+<h1 class="heading"><strong>DuckHelp</strong></h1>
+<a class="loginbutton"  href="https://mystevens.stevens.edu" >Login</a>
+<div class="bottomhalf">
+
+	<div class="topnav">
+		<a class="navlink" href=index.html>Home</a>
+		<a class="navlink" href=math.html>Math</a>
+		<a class="navlink" href=science.html>Science</a>
+		<a class="navlink" href=humanities.html>Humanities</a>
+		<a class="navlink" href=business.html>Business</a>
+		<a class="navlink" href=other.html>Other</a>
+	</div>
+
+<br>
+<br>
+
+<div class="center">
+	<div class="dropdown">
+		<button class="otherlinks">Appointment Type</button>
+		<div class="center">
+			<div class="dropdown-content">
+				<div class="apptdrop" id="peer" onclick="schedule()">Peer Group</div>
+				<div class="apptdrop" id="tutor" onclick="schedule()">Tutor</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<br>
+
+<div class="schedule">
+	<p class="sched">Select a date and time: </p>
+	<input class="sched" type="date" id="date" value="">
+	<br>
+
+	<input class="sched" type="time" id="time" value="">
+
+	<br>
+
+	<input class="sched" type="submit" onclick="submit()">
+</div>
+
+
+<br>
+
+<br>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Question</title>
+	<link rel="stylesheet" type="text/css" href="styles/duckhelp.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body onload="hideDropdowns()">
+<script src="js/scripts.js"></script>
+<img class="atilla" src="images/atilla.png">
+<h1 class="heading"><strong>DuckHelp</strong></h1>
+<div class="bottomhalf">
+	<div class="topnav">
+		<a class="navlink" href=index.html>Home</a>
+		<a class="navlink" href=math.html>Math</a>
+		<a class="navlink" href=science.html>Science</a>
+		<a class="navlink" href=humanities.html>Humanities</a>
+		<a class="navlink" href=business.html>Business</a>
+		<a class="navlink" href=other.html>Other</a>
+	</div>
+
+	<br>
+	<br>
+
+	<form class="formstyling">
+		Name:<br>
+		<input type="text" id="name" name="name"><br>
+		myStevens Username:<br>
+		<input type="text" id="username" name="username"><br>
+		Subject:<br>
+		<select id="subjects" onchange="showDropdown()">
+			<option value="blank"></option>
+			<option value="math">Math</option>
+			<option value="science">Science</option>
+			<option value="business">Business</option>
+			<option value="humanities">Humanities</option>
+			<option value="other">Other</option>
+		</select><br><br>
+
+		<div id="mathselection">
+			Class:<br>
+			<select id="math">
+				<option value="blank"></option>
+				<option value="ma121">MA121</option>
+				<option value="ma122">MA122</option>
+				<option value="ma123">MA123</option>
+				<option value="ma124">MA124</option>
+			</select><br><br>
+		</div>
+
+		<div id="scienceselection">
+			Class:<br>
+			<select id="science">
+				<option value="blank"></option>
+				<option value="pep111">PEP111</option>
+				<option value="pep112">PEP112</option>
+				<option value="bio281">BIO281</option>
+				<option value="ch116">CH115</option>
+				<option value="ch116">CH116</option>
+			</select><br><br>
+		</div>
+
+		<div id="humselection">
+			Class:<br>
+			<select id="humanities">
+				<option value="blank"></option>
+				<option value="cal103">CAL103</option>
+				<option value="cal105">CAL105</option>
+			</select><br><br>
+		</div>
+
+		<div id="busselection">
+			Class:<br>
+			<select id="business">
+				<option value="blank"></option>
+				<option value="qf101">QF101</option>
+				<option value="qf102">QF102</option>
+				<option value="bt244">BT244</option>
+			</select><br><br>
+		</div>
+
+		<div id="otherselection">
+			Class:<br>
+			<select id="other">
+				<option value="blank"></option>
+				<option value="other">Ask other question</option>
+			</select><br><br>
+		</div>
+
+		Question:<br>
+		<input type="text" name="question" id="question"><br>
+		<input type="button" id="postthequestion" value="Submit" onclick="postAQuestion()">
+	</form>
+</div>
+
+</body>
+
+</html>

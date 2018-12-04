@@ -1,0 +1,225 @@
+
+body{
+
+background-color: darkred;
+
+}
+
+.topnav{
+    background-color: #404040;
+    overflow: hidden;
+}
+ 
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.heading{
+
+    font-family: 'Alerta Stencil', sans-serif;
+    font-size: 85px;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    margin-right: 50%;
+
+}
+
+.bottomhalf{
+    margin-top: 7%;
+    background-color: #808080;
+    padding-bottom: 10%;
+}
+
+.atilla{
+
+    height: 15%;
+    width: 15%;
+    float: left;
+
+}
+
+.navlink{
+    font-family: 'Alerta Stencil', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.otherlinks{
+    font-family: 'Alerta Stencil', sans-serif;
+    background-color: #595959;
+    border: solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    text-align:center;
+
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    text-align:center;
+}
+
+.otherlinks:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.gap{
+
+
+}
+
+.loginbutton{
+    font-family: 'Alerta Stencil', sans-serif;
+    padding: 5px 7px;
+    color: white;
+    float: right;
+    background-color: #595959;
+    text-decoration: none;
+
+}
+
+.studentsworking{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 55%;
+    width: 55%;
+
+}
+
+.questiontext{
+    color: white;
+    font-family: 'Alerta Stencil', sans-serif;
+    padding-left: 30px;
+}
+
+.questionimage{
+    padding-left: 30px;
+}
+
+.questionimagebio{
+
+    height: 50%;
+    width: 50%;
+
+}
+
+
+.dropbutton {
+    background-color: #595959;
+    border: solid;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    text-align:center;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+}
+
+
+.dropdown-content a:hover {background-color: silver}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbutton {
+    background-color: #b30000;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.question{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.formstyling{
+    color: white;
+    font-family: 'Alerta Stencil', sans-serif;
+    padding-left: 30px;
+}
+
+
+
+.apptdrop{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-style: solid;
+}
+
+.apptdrop:hover{
+    background-color: silver
+}
+
+.schedule{
+    display: block;
+    padding-left: 30px;
+}
+
+.sched{
+    display: none;
+    font-family: 'Alerta Stencil', sans-serif;
+    font-size: 20px;
+}
+
+
+
