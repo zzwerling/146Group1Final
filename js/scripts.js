@@ -32,8 +32,7 @@ function writeUserQuestion(){
         "<hr>\n" +
         "\n" +
         "<br>\n" +
-        "<br>\n" +
-        "<hr>";
+        "<br>\n" ;
 
     var getQuestionText = document.getElementById("questiontext");
 
@@ -41,8 +40,6 @@ function writeUserQuestion(){
         getQuestionText.style.color = "white";
         getQuestionText.style.fontFamily = "Alerta Stencil, sans-serif;";
         getQuestionText.style.paddingLeft = "30px";
-
-
 
 
     }
@@ -230,4 +227,22 @@ function postAQuestion() {
         }
 
 
+}
+
+
+function schedule(){
+    var show = document.getElementsByClassName("sched");
+
+    for(var i=0; i<show.length; i++){
+        show[i].style.display = "block";
+    }
+}
+
+function submit(){
+    var d = document.getElementById("date");
+    var t = document.getElementById("time");
+    window.alert("You have successfully scheduled an appointment for " + d.value + " at " + t.value + ".");
+
+    d.value=""
+    t.value=""
 }
